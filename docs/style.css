@@ -1,0 +1,29 @@
+/* seletor de ID */
+body {
+    background-color: #c31667; rgb(200,200,200)
+    font-family: arial, sans-serif;
+}
+/* seletor de classe */
+.central {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(159, 8, 129);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(113, 5, 5, 0.1);
+}
+li {
+    display: inline;
+    margin-right: center;
+}
+.item-menu {
+    padding: 10px 15px;
+    background-color: rgba(211, 205, 205, 0.8);
+    border-bottom: 1px solid rgba(113, 5, 5, 0.1);
+    border-right: #c31667;
+    border-color: azure;
+}
+.item-menu:hover {
+    background-color: rgb(95, 4, 4);
+    padding: 0.7rem;
+}
